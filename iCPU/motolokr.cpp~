@@ -1,0 +1,29 @@
+#include "icput.h"
+
+/**
+ * The Constructor
+ * Initializes all the variables
+ *
+ */
+MyZKbMain::MyZKbMain():ZKbMainWidget((ZHeader::HEADER_TYPE)3,NULL , "ZMainWidget" , 0)
+{
+	// initialize the QCopChannel to monitory the EZX/System channel
+	// all events are handled by slotReveivePhoneMsg() function
+	QCopChannel *pSystemChannel = new QCopChannel("EZX/System", this);
+	connect(pSystemChannel, SIGNAL(received(const QCString &,const QByteArray &)),
+			this, SLOT(slotReveivePhoneMsg(const QCString &,const QByteArray &)));
+	
+}
+
+void MyZKbMain::slotReveivePhoneMsg(const QCString& msg, const QByteArray& data)
+{
+    if (msg == "DPL_BKLGT_DIMMED" && !UTIL_GetPhoneInCall())
+	{
+	    // change cpu to minimum
+	}
+	
+	if(screenSaverMode && (msg == "LCDOn" || msg == "DPL_BKLGT_RESTORED"))
+	{
+	    // change cpu to maximum
+	}
+}

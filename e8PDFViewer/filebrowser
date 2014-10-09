@@ -1,0 +1,27 @@
+#!/bin/sh
+mypath=${0%/*}
+export IDIRNAME=`busybox dirname "$2"`
+export DIRNAME=`busybox dirname "$0"`
+LS=`ls -a | sed -e "/^\.$/d" | sed -e "/^\..$/d" | sed s/\ /~/g`
+$mypath/showRadio "PDF Reader" "Select the pdf file .pdf:$IFS`pwd`" "../" $LS
+RADIORES=$?
+if [ $RADIORES -eq 0 ]
+	then
+		exit 0
+elif [ $RADIORES -eq 1 ]
+	then
+		cd ../
+		exec $0
+else
+	let n=$RADIORES-1
+	CD=`ls -a | sed -e "/^\.$/d" | sed -e "/^\..$/d" | sed -n $n\p`
+	if [ -d "$CD" ]
+	then
+	cd "$CD"
+	exec $0
+		else
+		export IFILENAME="$CD"
+		export ZDIRNAME=`pwd`
+		exec "$DIRNAME"/pdfViewer.sh
+fi
+fi

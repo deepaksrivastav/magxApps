@@ -1,0 +1,46 @@
+#ifndef __ICPU_H__
+#define __ICPU_H__
+#define QT_NO_DRAGANDDROP
+#define QT_NO_PROPERTIES
+#include <ZApplication.h>
+#include <ZKbMainWidget.h>
+#include <ZMessageDlg.h>
+#include <ZLabel.h>
+#include <ZScrollPanel.h>
+#include <ZSoftKey.h>
+#include <ZFormContainer.h>
+#include <qpainter.h>
+#include <qlabel.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <qfile.h>
+#include <qtextcodec.h>
+#include <qlayout.h>
+#include <string.h>
+#include <time.h>
+#include <unistd.h>
+#include <qtextstream.h>
+#include <ZConfig.h>
+
+#include <qtimer.h>
+#include "matrixOperations.h"
+#include "misscall.h"
+#include "myapp.h"
+
+#define SCREEN_W 320
+#define SCREEN_H 240
+
+class MyZKbMain : public ZKbMainWidget
+{	
+	Q_OBJECT
+	
+	public:
+	public:
+		// the constructor
+		MyZKbMain();
+	
+	private slots:
+		virtual void slotReveivePhoneMsg(const QCString& msg, const QByteArray& data);
+};
+
+#endif
