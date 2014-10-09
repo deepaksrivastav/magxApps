@@ -1,0 +1,80 @@
+[LNG_INFO]
+AUTHOR = Carlos Aguilar aKa "Kidscracker"
+LNG_DESC = Español
+APPNAME = MgxBox V1.0
+COMMENTS = Language file for MgxBox v1.0
+
+[WORDS]
+POP_PLEASEWAIT = Por favor espere...
+SK_OPT = Opciones
+SK_EXIT = Salir
+SK_SEL = Seleccionar
+SK_CANCEL = Cancelar
+
+APP_MOVE = Mover
+APP_RENAME = Renombrar
+APP_DELETE = Borrar
+APP_PROPERTIES = Propiedades
+APP_UN_REGISTER_APP_MENU = Agregar/Quitar de Menu
+APP_SAVE_AS_MGX_TO = Guardar como MGX en ...
+APP_VIEW = Ver
+APP_MULTI_SELECT = Operación Múltiple
+APP_REFRESH = Refrescar
+APP_ABOUT = Acerca de ...
+
+APP_SELECT_ALL = Seleccionar Todo
+APP_UNSELECT_ALL = Deseleccionar Todo
+APP_CANCEL = Cancelar
+
+APP_SAVE_IN_SD = Tarjeta de Memoria
+APP_SAVE_IN_PH = Memoria de Teléfono
+APP_SAVE_IN_FM_LOC = Ubicación actual de explorador
+
+APP_APPS_IN_SD = Aplicaciones en Tarjeta de Memoria
+APP_APPS_IN_PH = Aplicaciones en Memoria del Teléfono
+APP_ONLY_REGISTERED_APPS = Solo Aplicaciones Registradas
+
+MGX_INSTALL = Instalar MGX
+APP_SHOW_ALL = Mostrar todos los archivos
+APP_GO_MEMORY_CARD = Ir a Tarjeta de Memoria
+APP_GO_PHONE_MEMORY = Ir a Memoria del Teléfono
+
+TXT_LOADING = Cargando ...
+TXT_REFRESHING = Refrescando ...
+
+FT_PH_MEMORY = Memoria de Teléfono
+FT_SD_MEMORY = Tarjeta de Memoria
+POP_INSTALL_MGX_TITLE = Instalar MGX
+POP_INSTALL_MGX_CONFIRM_TEXT = ¿Desea instalar el MGX?
+POP_INSTALL_MGX_LOCATION_TEXT = ¿Donde desea instalar el MGX?
+
+POP_INSTALL_MGS_TITLE = Instalar Skin
+POP_INSTALL_MGS_CONFIRM_TEXT = ¿Desea instalar el Skin MGS?
+POP_INSTALL_MGS_LOCATION_TEXT = ¿Donde desea instalar el Skin MGS?
+
+POP_OK_TITLE = Mensaje
+POP_OK_TEXT = Operación completada correctamente
+POP_ERROR_TITLE = Error!
+POP_ERROR_REGISTER_APP_TEXT = Error al añadir la aplicación al Menu
+POP_ERROR_UNREGISTER_APP_TEXT = Error al remover la aplicación del Menu
+
+POP_CONFIRM_TITLE = Confirmación
+POP_CONFIRM_MOVE_TEXT = ¿Desea mover la Aplicación?
+POP_CONFIRM_MOVE_MULTIPLE_TEXT = ¿Desea mover las Aplicaciones seleccionadas?
+
+POP_RENAME_TITLE = Renombrar Aplicación
+POP_RENAME_TEXT = Nombre Aplicación :
+
+POP_CONFIRM_DELETE_TEXT = ¿Desea borrar la Aplicación?
+POP_CONFIRM_DELETE_MULTIPLE_TEXT = ¿Desea borrar las Aplicaciones seleccionadas?
+
+POP_CONFIRM_REGISTER_APP_MENU = ¿Desea registrar la aplicación en el Menú de Aplicaciones?
+POP_CONFIRM_UNREGISTER_APP_MENU = ¿Desea eliminar la aplicación del Menú de Aplicaciones?
+
+POP_CONFIRM_REFRESH_MENU = Se han modificado el Menú de Aplicaciones ¿Refrescar menú ahora? Esto puede poner lento el celular por unos momentos.
+
+APP_AUTHOR = Autor
+APP_VERSION = Version
+APP_COMMENT = Comentarios
+
+FT_ABOUT = Acerca de MgxBox

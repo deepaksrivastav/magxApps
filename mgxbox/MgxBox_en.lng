@@ -1,0 +1,80 @@
+[LNG_INFO]
+AUTHOR = Carlos Aguilar aKa "Kidscracker"
+LNG_DESC = English
+APPNAME = MgxBox V1.0
+COMMENTS = Language file for MgxBox v1.0
+
+[WORDS]
+POP_PLEASEWAIT = Please Wait ...
+SK_OPT = Options
+SK_EXIT = Exit
+SK_SEL = Select
+SK_CANCEL = Cancel
+
+APP_MOVE = Move
+APP_RENAME = Rename
+APP_DELETE = Delete
+APP_PROPERTIES = Properties
+APP_UN_REGISTER_APP_MENU = (Un)Register from Menu
+APP_SAVE_AS_MGX_TO = Save as MGX to ...
+APP_VIEW = View
+APP_MULTI_SELECT = Select Multiple
+APP_REFRESH = Refresh
+APP_ABOUT = About MgxBox
+
+APP_SELECT_ALL = Select All
+APP_UNSELECT_ALL = Deselect All
+APP_CANCEL = Cancel
+
+APP_SAVE_IN_SD = Memory Card
+APP_SAVE_IN_PH = Internal Memory
+APP_SAVE_IN_FM_LOC = Current FM Location
+
+APP_APPS_IN_SD = Memory Card Apps
+APP_APPS_IN_PH = Internal Memory Apps
+APP_ONLY_REGISTERED_APPS = Registered Apps
+
+MGX_INSTALL = Install MGX
+APP_SHOW_ALL = Show all Files
+APP_GO_MEMORY_CARD = Go to Memory Card
+APP_GO_PHONE_MEMORY = Go To Phone Memory
+
+TXT_LOADING = Loading ...
+TXT_REFRESHING = Refreshing ...
+
+FT_PH_MEMORY = Internal Memory
+FT_SD_MEMORY = Memory Card
+POP_INSTALL_MGX_TITLE = Install MGX
+POP_INSTALL_MGX_CONFIRM_TEXT = Install MGX?
+POP_INSTALL_MGX_LOCATION_TEXT = Select location for MGX
+
+POP_INSTALL_MGS_TITLE = Install Skin
+POP_INSTALL_MGS_CONFIRM_TEXT = Install MGS Skin?
+POP_INSTALL_MGS_LOCATION_TEXT = Select location for MGS Skin
+
+POP_OK_TITLE = Message
+POP_OK_TEXT = Operation completed succesfully!
+POP_ERROR = Error!
+POP_ERROR_REGISTER_APP_TEXT = There was an error with registering the application to Menu.
+POP_ERROR_UNREGISTER_APP_TEXT = There was an error with unregistering the application from Menu.
+
+POP_CONFIRM_TITLE = Confirmation
+POP_CONFIRM_MOVE_TEXT = Move Application?
+POP_CONFIRM_MOVE_MULTIPLE_TEXT = Move selected Applications?
+
+POP_RENAME_TITLE = Rename Application
+POP_RENAME_TEXT = Enter new name:
+
+POP_CONFIRM_DELETE_TEXT = Delete Application?
+POP_CONFIRM_DELETE_MULTIPLE_TEXT = Delete selected Applications?
+
+POP_CONFIRM_REGISTER_APP_MENU = Register Application to Applications Menu?
+POP_CONFIRM_UNREGISTER_APP_MENU = Unregister Application from Applications Menu?
+
+POP_CONFIRM_REFRESH_MENU = Applications Menu have changed. Refresh menu now? It will slow down phone for a moment.
+
+APP_AUTHOR = Author
+APP_VERSION = Version
+APP_COMMENT = Comments
+
+FT_ABOUT = About MgxBox

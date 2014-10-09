@@ -1,0 +1,5 @@
+[UNPACK_TOOLS]
+BIN_FULLPATH = /usr/local/p7zip/7z
+[MGX_PATHS]
+SD_CARD_PATH = /mmc/mmca1/mpkgbox
+PHONE_MEM_PATH = /mmc/movinand1/mpkgbox
